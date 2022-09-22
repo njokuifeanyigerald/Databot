@@ -87,13 +87,13 @@ In respect to this, the client login details, orders history and payment history
    
     <!-- for authenticated user --> use http://127.0.0.1:8000/order/
 
-    ('add/', addOrderItems, name='orders-add'),
+    **('add/', addOrderItems, name='orders-add'),**
     ('myorders/', getMyOrders, name='myorders'),
     ('<str:pk>/', getOrderById, name='user-order'),
     ('<str:pk>/pay/', updateOrderToPaid, name='pay'),
 
     <!-- for admin user --> use http://127.0.0.1:8000/order/
-    
+
     ('', getOrders, name='orders'),
     ('<str:pk>/deliver/', updateOrderToDelivered, name='order-delivered'),
 
