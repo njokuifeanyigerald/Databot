@@ -15,7 +15,7 @@ from rest_framework_simplejwt.views import (
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="DATABOT API",
+      title="ECOMMERCE API",
       default_version='CodeByGerald v1',
       description="built an Ecommerce API",
       terms_of_service="https://www.google.com/policies/terms/",
