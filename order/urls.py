@@ -4,7 +4,6 @@ from .views import (getMyOrders, getOrderById,getOrders,addOrderItems,
 
 
 urlpatterns = [
-
     path('', getOrders, name='orders'),
     
     path('add/', addOrderItems, name='orders-add'),
